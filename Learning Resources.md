@@ -49,7 +49,6 @@
 - [What are Azure ML Environments](https://docs.microsoft.com/en-us/azure/machine-learning/concept-environments)
 - [Create and use virtual environments](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-environments)
 - [List of curated environments](https://docs.microsoft.com/en-us/azure/machine-learning/resource-curated-environments)
-
 - [Compute targets in Azure ML](https://docs.microsoft.com/en-gb/azure/machine-learning/concept-compute-target)
 - [Set up compute targets for training](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-set-up-training-targets)
 - [Manage compute with Python SDK](https://docs.microsoft.com/en-gb/python/api/azureml-core/azureml.core.compute.amlcompute.amlcompute?view=azure-ml-py)
@@ -89,7 +88,6 @@
 - [Monitor and collect data from Azure ML web service endpoints](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-app-insights)
 - [Log Query Overview](https://docs.microsoft.com/en-gb/azure/azure-monitor/log-query/log-query-overview)
 - [Collect and evaluate data for model deployed on AKS](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-data-collection)
-
 - [How to monitor datasets](https://docs.microsoft.com/en-gb/azure/machine-learning/how-to-monitor-datasets)
 - Channel 9 video on [Data drift detection with Azure ML](https://channel9.msdn.com/Shows/AI-Show/Drift)
 
