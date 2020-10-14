@@ -11,6 +11,7 @@
 - [Azure ML SDK for Python Documentation](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py)
 - [ML Practice Guides](https://github.com/nthacker/ML-Practice-Guides)
 - [Machine Learning Example Notebooks](https://github.com/Azure/MachineLearningNotebooks)
+- [Book on Azure Machine Learning](https://www.amazon.com/Mastering-Azure-Machine-Learning-end/dp/1789807557)
 
 # Resources per module according to DP-100 course
 ## Module 1:
@@ -73,7 +74,7 @@
 - [Prevent overfiting and imbalanced data with Automated ML](https://docs.microsoft.com/en-us/azure/machine-learning/concept-manage-ml-pitfalls)
 - [Primary Metric Options](https://docs.microsoft.com/en-gb/azure/machine-learning/how-to-configure-auto-train#primary-metric)
 - [Understand results and metrics](https://docs.microsoft.com/en-gb/azure/machine-learning/how-to-understand-automated-ml#regression)
-- [Tutorial: Create a forecasting model using Automated ML](https://github.com/microsoft/MCW-Machine-Learning/blob/master/Hands-on lab/HOL step-by step - Machine Learning.md#exercise-1-creating-a-forecast-model-using-automated-machine-learning)
+- [Tutorial: Create a forecasting model using Automated ML](https://github.com/microsoft/MCW-Machine-Learning/blob/master/Hands-on%20lab/HOL%20step-by%20step%20-%20Machine%20Learning.md#exercise-1-creating-a-forecast-model-using-automated-machine-learning)
 - [Tutorial: Forecast bike sharing demand with Automated ML](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-automated-ml-forecast)
 
 ## Module 9:
