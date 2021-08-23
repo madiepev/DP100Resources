@@ -1,6 +1,9 @@
 trigger:
 - main
 
+pool:
+  vmImage: 'windows-latest'
+
 steps:
 - task: AzureCLI@2
   displayName: Azure CLI
