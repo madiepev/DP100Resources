@@ -1,9 +1,6 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
-
 steps:
 - task: AzureCLI@2
   displayName: Azure CLI
