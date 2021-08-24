@@ -8,7 +8,7 @@ variables:
   - group: dp100-aml-vg
 
 steps:
-- task: AzureCLI@1
+- task: AzureCLI@2
   displayName: Check Azure CLI and install ML extension
   inputs:
     azureSubscription: "$(AZURE_RM_SVC_CONNECTION)"
@@ -20,7 +20,7 @@ steps:
       az extension remove -n azure-cli-ml
       az extension remove -n ml
       az extension add -n ml -y
-- task: CreateMLWS@1
+- task: AzureCLI@2
   displayName: Create AML Workspace with Azure CLI
   inputs:
     azureSubscription: "$(AZURE_RM_SVC_CONNECTION)"
