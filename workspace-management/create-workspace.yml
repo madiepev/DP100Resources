@@ -30,3 +30,12 @@ steps:
       az group create --name "$(RESOURCE_GROUP)" --location "$(LOCATION)"
       az configure --defaults group="$(RESOURCE_GROUP)" workspace="$(WORKSPACE_NAME)"
       az ml workspace create
+- task: AzureCLI@2
+  displayName: Create Compute resources
+  inputs:
+    azureSubscription: "$(AZURE_RM_SVC_CONNECTION)"
+    scriptType: ps
+    scriptLocation: inlineScript
+    inlineScript: |
+      az ml compute create --name "$(BASE_NAME)-vm" --size Standard_DS11_V2 --type ComputeInstance 
+      az ml compute create --name "$(BASE_NAME)-aml" --size Standard_DS11_v2 --min-instances 0 --max-instances 2 --type AmlCompute
