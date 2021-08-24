@@ -9,6 +9,18 @@ variables:
 
 steps:
 - task: AzureCLI@2
+  displayName: Check Azure CLI and install ML extension
+  inputs:
+    azureSubscription: "$(AZURE_RM_SVC_CONNECTION)"
+    scriptType: ps
+    scriptLocation: inlineScript
+    inlineScript: |
+      az --version
+      az account show
+      az extension remove -n azure-cli-ml
+      az extension remove -n ml
+      az extension add -n ml -y
+- task: AzureCLI@2
   displayName: Create Compute resources
   inputs:
     azureSubscription: "$(AZURE_RM_SVC_CONNECTION)"
